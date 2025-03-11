@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>メモアプリ</title>
+    <link href="https://unpkg.com/sanitize.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <h1>こんにちは、メモアプリへようこそ！</h1>
+      <h3><label for="memoArea">自由に文章を書き込んでください。</label></h3>
+      <input type="text" name="memoArea" id="memoArea" />
+      <div class="button">
+        <button id="add">追加</button>
+        <button id="delete">削除</button>
+      </div>
+      <ol id="memoList"></ol>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

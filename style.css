@@ -1,0 +1,31 @@
+.content {
+  width: 600px;
+  margin: 30px auto;
+  border: 1px solid #d1d1d1;
+  background-color: #fff;
+  padding: 20px;
+}
+body {
+  background-color: #f6dcdc;
+}
+h3 {
+  margin: 10px;
+}
+button {
+  display: block;
+  margin: 0 0 0 10px;
+  padding: 5px;
+  width: 80px;
+  background-color: #3258f1;
+  color: #fff;
+}
+.button {
+  display: flex;
+}
+input {
+  width: 100%;
+  font-size: 16px;
+  padding: 3px;
+  margin: 10px auto;
+  border-radius: 5px;
+}
