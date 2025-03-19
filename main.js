@@ -1,4 +1,3 @@
-//著作権的に問題あり、公開は厳禁
 function createMemo() {
   const memo = document.getElementById('memoArea');
 
